@@ -28,3 +28,17 @@ To view your project, go to: http://localhost:3000
 ```
 
 ![demo](./screenshot.png)
+
+### Alternate for api non https problem when using api
+install pm2
+````bash
+sudo npm install pm2@latest -g
+````
+start app using pm2
+````bash
+pm2 start app.js
+````
+Listening on port 80
+````bash
+iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 3000
+````
