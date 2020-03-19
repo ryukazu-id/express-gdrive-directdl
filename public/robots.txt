@@ -1,0 +1,17 @@
+User-agent: Mediapartners-Google
+Disallow:
+
+User-Agent: *
+Disallow: /
+
+User-agent: Yandex
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: / 
+
+User-agent: Googlebot-Image
+Disallow: / 
+
+User-agent: ia_archiver
+Disallow: /
