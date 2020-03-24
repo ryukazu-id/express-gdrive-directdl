@@ -29,7 +29,7 @@ To view your project, go to: http://localhost:3000
 
 ![demo](./screenshot.png)
 
-### Alternate for api non https problem when using api
+### fixed for non https problem when using api on public ip
 install pm2
 ````bash
 sudo npm install pm2@latest -g
